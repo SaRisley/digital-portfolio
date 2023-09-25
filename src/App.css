@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: system-ui, Helvetica, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+} */
+
+hr {
+    border: 0;
+    height: 0; 
+    box-shadow: 0 0 10px 1px black
+}
+
+button{
+  background-color: black;
+  color: white;
+  font-size: 20px;
+  padding: 10px 60px;
+  border-radius: 5px;
+  margin-top: 50px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  cursor: pointer;
+}
+
+button:hover {
+    box-shadow: 0 0 0 1px #000000;
+    transition: 0.7s;
+}
+
+.colour-block {
+  background:#823A9C;
+  width:60%;
+  padding:10% 20% 10% 20%;
+  color:#fff;
+}
+.white-block {
+  background:#fff;
+  width:80%;
+  padding:7% 20% 10% 10%;
+  align-items: center;
+  align-content: center;
+  color:#823A9C;
+}
+
+h1 {
+  text-align:center;
+  font-size:80px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+}
+
+h2 {
+  text-align:center;
+  font-size:50px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+}
+
+.joke-intro{
+  text-align:center;
+  font-size: 30px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+  margin-bottom: 100px;
+}
+
+.joke{
+  text-align:center;
+  font-size: 30px;
+  font-family:'wire one', serif;
+  font-weight:normal;
+  margin-top: 100px;
+}
+
+.projectstitle{
+  text-decoration: underline;
+  text-decoration-color: #000;
+}
+
+p {
+  font-size:20px;
+  font-family:'Raleway', serif;
+}
+
+.projectheader {
+  text-decoration: underline;
+  text-decoration-color: #000000;
+}
+
+.github-link{
+  margin-top: 5%;
+  margin-bottom: -50px;
+}
+
+.github-img{
+  width: 50px;
+  height: 50px;
+}
+
+/*------------------*/
+/*  SKEW CLOCKWISE  */
+/*------------------*/
+.skew-cc{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to right bottom, #823A9C 49%, #fff 50%),    linear-gradient(-50deg, #ffffff 16px, #000 0);
+}
+
+
+/*-------------------------*/
+/* SKEW COUNTER CLOCKWISE  */
+/*-------------------------*/
+.skew-c{
+  width:100%;
+  height:100px;
+  position:absolute;
+  left:0px;
+  background: linear-gradient(to left bottom, #fff 49%, #823A9C 50%);
+}
