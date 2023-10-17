@@ -3,11 +3,13 @@ import AboutMe from "./components/AboutMe";
 import Projects from "./components/Projects";
 import Joke from "./components/Joke";
 import ScrollToTop from "./components/ScrollToTop";
+import Header from "./components/Header";
 
 function App() {
   return (
     <>
       <ScrollToTop/>
+      <header><Header/></header>
       <div className="skew-c"></div>
         <div className="colour-block">
           <AboutMe/>
