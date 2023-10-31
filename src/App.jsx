@@ -4,6 +4,7 @@ import Projects from "./components/Projects";
 import Joke from "./components/Joke";
 import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
+import ContactForm from "./components/ContactForm";
 
 function App() {
   return (
@@ -20,6 +21,10 @@ function App() {
         </div>
       <div className="skew-c"></div>
         <div className="colour-block">
+          <ContactForm/>
+        </div>
+        <div className="skew-cc"></div>
+        <div className="white-block">
           <Joke/>
         </div>
     </>
