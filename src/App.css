@@ -71,6 +71,14 @@ h2 {
   font-weight:normal;
 }
 
+.contact-me {
+  text-align:center;
+  font-size:30px;
+  font-weight:normal;
+  text-decoration: underline;
+  margin-top: 5px;
+}
+
 .joke-intro{
   text-align:center;
   font-size: 30px;
@@ -183,3 +191,45 @@ background-color: #555; /* Add a dark-grey background on hover */
   height: 30px;
 }
 
+.form {
+  border: 3px solid lightgray;
+  border-radius: 10px;
+  padding: 50px;
+}
+
+input[type=text], input[type=email], textarea[name=message], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type=submit] {
+  width: 50%;
+  background-color: black;
+  color: white;
+  padding: 16px 20px;
+  margin: 20px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type=submit]:hover{
+  animation: bubble 0.4s ease-out;
+}
+
+@keyframes bubble {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
