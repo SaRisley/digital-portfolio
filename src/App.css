@@ -191,6 +191,22 @@ background-color: #555; /* Add a dark-grey background on hover */
   height: 30px;
 }
 
+.carousel{
+  margin-top: 100px;
+  align-items: center;
+  margin-bottom: -100px;
+}
+
+.cover-up{
+  border-style: solid;
+  border-color: #ffffff;
+  border-width: 40px;
+  margin-top:-40px;
+  width: 100%;
+  position: absolute;
+  z-index: 1000;
+}
+
 .form {
   border: 3px solid lightgray;
   border-radius: 10px;
