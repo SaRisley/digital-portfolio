@@ -5,7 +5,7 @@ const handleDragStart = (e) => e.preventDefault();
 
 const items = [
     <div key="item-1">
-        <img src="src/images/infinityT.png" alt="infinity-trails-project" width="700px" height="500px" onDragStart={handleDragStart} role="presentation" />
+        <a href="https://frontend-phi-lyart.vercel.app/"><img src="src/images/infinityT.png" alt="infinity-trails-project" width="700px" height="500px" onDragStart={handleDragStart} role="presentation" /></a>
         <p>
         <strong>INFINTY TRAILS</strong><br/>
         Final project at Makers Academy. Using Open AI to create a ‘Choose your own adventure’ game with different playable genres and characters each with their own specific requests to Open AI API.
@@ -18,7 +18,7 @@ const items = [
         <a href="https://frontend-phi-lyart.vercel.app/">Deployed via Vercel</a>
     </div>,
     <div key="item-2">
-        <img src="src/images/rockPaperScissors.png" alt="rock-paper-scissors-project" width="700px" height="500px" onDragStart={handleDragStart} role="presentation" />
+        <a href="https://main.d1vu96kenrpefg.amplifyapp.com/"><img src="src/images/rockPaperScissors.png" alt="rock-paper-scissors-project" width="700px" height="500px" onDragStart={handleDragStart} role="presentation" /></a>
         <p>
         <strong>ROCK, PAPER, SCISSORS</strong><br/>
         A simple Rock, Paper, Scissors react web app which was used to experiment with React and sharing state/props amongst components. 
@@ -32,7 +32,7 @@ const items = [
         <a href="https://main.d1vu96kenrpefg.amplifyapp.com/">Deployed via AWS Amplify</a>
     </div>,
         <div key="item-3">
-        <img src="src/images/aceBook.png" alt="aceBook-project" width="700px" height="500px" onDragStart={handleDragStart} role="presentation" />
+        <a href="https://github.com/FahimIslam2410/acebook-mern-water"><img src="src/images/aceBook.png" alt="aceBook-project" width="700px" height="500px" onDragStart={handleDragStart} role="presentation" /></a>
         <p>
         <strong>AceBook</strong><br/>
         A Facebook replica done as part of a two week project at Makers Academy.
