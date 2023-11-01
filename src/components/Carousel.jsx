@@ -47,10 +47,9 @@ const items = [
 const Carousel = () => {
 return (
     <div className='carousel'>
-    <h2>My Projects</h2>
-    <p>Please scroll to explore some of my personal projects in addition to some completed as part of my bootcamp with Makers Academy.</p>
+    <h2 className='projects-heading'>My Projects</h2>
+    <p className='projects-p'>Please scroll to explore some of my personal projects in addition to some completed as part of my bootcamp with Makers Academy.</p>
     <AliceCarousel mouseTracking items={items} />
-    <p className='cover-up'></p>
     </div>
 );
 }
