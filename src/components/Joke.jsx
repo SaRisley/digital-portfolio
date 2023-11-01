@@ -41,18 +41,16 @@ const Joke = () => {
 
     return(
         <Box
-        component="ul"
         sx={{alignContent: 'center', alignItems: 'center', gap: 2, p: 0, m: 0 }}
         >
         <div>
         <h2 className="joke-intro">If you have made it this far down, here is something I made for a bit of fun using a random joke API! Enjoy!</h2>
         </div>
-        <hr></hr>
         {loading ? (
             <BeatLoader
                 color="#000000"
                 loading={loading}
-                size={80}
+                size={50}
                 speedMultiplier={2}
                 alignitems="center"
                 justifycontent="center"
